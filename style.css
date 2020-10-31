@@ -11,7 +11,7 @@ body{
     background-position: center;
     height: 100vh;
 }
-.logo{
+.logo a{
     width: 150px;
     position: fixed;
     top: 5%;
@@ -20,6 +20,7 @@ body{
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 900;
     color: #171B23;
+    text-decoration: none;
 }
 .banner-about-me{
     text-align: center;
@@ -244,8 +245,6 @@ nav ul li a:hover{
     padding: 15px;
     margin-bottom: 30px;
     border-radius: 5px;
-    /* box-shadow: 0 10px 20px 3px #A7AFC2; */
-    cursor: pointer;
     align-items: center;
     text-align: center;
     transition: transform .5s;
